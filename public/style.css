@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Gotham Pro Regular';
+	src: url('fonts/GothamPro/GothamPro.eot');
+	src: url('fonts/GothamPro/GothamPro.eot?#iefix') format('embedded-opentype'),
+	url('fonts/GothamPro/GothamPro.woff') format('woff'),
+	url('fonts/GothamPro/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+  font-size: 18px;
+  font-family: "Gotham Pro Regular";
+}
+.container {
+  max-width: 840px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  text-align: center;
+  
+}
+.btn {
+  font-size: 18px;
+  font-family: "Gotham Pro Regular";
+  background-color: #ff4081;
+  border: none;
+  color: #fff;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.14), 0 4px 5px 0 rgba(0,0,0,.098), 0 1px 10px 0 rgba(0,0,0,.084);
+  outline: none;
+  padding: 10px 28px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff5a92;
+}
+.input {
+  font-size: 18px;
+  font-family: "Gotham Pro Regular";
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.14), 0 4px 5px 0 rgba(0,0,0,.098), 0 1px 10px 0 rgba(0,0,0,.084);
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #767676;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.add-contact__input:focus {
+  box-shadow: none;
+}
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
